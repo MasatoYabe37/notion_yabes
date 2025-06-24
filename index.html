@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8" />
+    <meta name="weatherwidget-io" content="width=350, height=350, initial-scale=1.0" />
+    <script>
+        !function (d, s, id)
+        {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (!d.getElementById(id))
+            {
+                js = d.createElement(s);
+                js.id = id;
+                js.src = 'https://weatherwidget.io/js/widget.min.js';
+                fjs.parentNode.insertBefore(js, fjs);
+            }
+        }(document, 'script', 'weatherwidget-io-js');
+    </script>
+    <style>
+        .weatherwidget-io {width:350px; height:300px;}
+    </style>
+</head>
+<body>
+    <iframe scrolling="no" frameborder="no" clocktype="html5" style="overflow:hidden;border:0;margin:0;padding:0;width:180px;height:60px;" src="https://www.clocklink.com/html5embed.php?clock=004&timezone=JST&color=gray&size=180&Title=&Message=&Target=&From=2025,1,1,0,0,0&Color=gray"></iframe>
+    <a class="weatherwidget-io" href="https://forecast7.com/ja/34d69135d50/osaka/" data-label_1="OSAKA" data-label_2="WEATHER" data-font="Noto Sans Japanese" data-days="5" data-theme="weather_one">OSAKA WEATHER</a>
+</body>
+</html>
